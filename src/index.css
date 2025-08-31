@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities for missing sizes */
+@layer utilities {
+  .w-50 {
+    width: 12.5rem; 
+  }
+  .-left-50 {
+    left: -12.5rem; 
+  }
+  .w-44 {
+    width: 11rem; 
+  }
+  .max-w-screen-sm {
+    max-width: 90vw;
+  }
+  .max-h-screen-sm {
+    max-height: 90vh;
+  }
+  .bg-muted {
+    background-color: #f1f5f9; 
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
